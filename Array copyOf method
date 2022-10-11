@@ -32,3 +32,12 @@ public class Array_copyOf {
         }
     }
 
+/*
+OUTPUT:
+Contents of a[] 
+1 8 3 9 7 
+
+Contents of b[] 
+2 8 3 
+
+*/
