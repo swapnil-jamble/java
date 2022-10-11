@@ -1,0 +1,40 @@
+// Java program to demonstrate array
+// copy using Arrays.copyOfRange()
+
+// Importing Arrays class from utility package
+import java.util.Arrays;
+
+public class Array_copyOfRange {
+    public static void main(String[] args)
+        {
+            // Custom input array
+            int a[] = { 1, 8, 3, 5, 9, 10 };
+
+            // Creating an array b[] and
+            // copying elements of a[] to b[]
+            int b[] = Arrays.copyOfRange(a, 2, 6);    //here copy element only from index 2 to 5
+
+            // Changing b[] to verify that
+            // b[] is different from a[]
+
+            // Iterating over array a[]
+            System.out.println("Contents of a[] ");
+            for (int i = 0; i < a.length; i++)
+                System.out.print(a[i] + " ");
+
+            // Iterating over array b[]
+            System.out.println("\n\nContents of b[] ");
+            for (int i = 0; i < b.length; i++)
+                System.out.print(b[i] + " ");
+        }
+    }
+
+/*
+OUTPUT:
+Contents of a[] 
+1 8 3 5 9 10 
+
+Contents of b[] 
+3 5 9 10 
+
+*/
