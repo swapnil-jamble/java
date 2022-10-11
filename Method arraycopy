@@ -32,3 +32,13 @@ public class Array_Copy_method {
                 System.out.print(b[i] + " ");
         }
     }
+
+/* 
+OUTPUT:
+ Contents of a[] 
+1 8 3 
+
+Contents of b[] 
+2 8 3 
+
+*/
