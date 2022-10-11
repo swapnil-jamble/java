@@ -26,3 +26,12 @@ public class Array_copy_ref {
         }
 
 }
+
+/*
+OUTPUT:
+Contents of a[] 
+2 8 3 
+
+Contents of b[] 
+2 8 3 
+*/
